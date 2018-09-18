@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.modal_wrapper{
+  background: rgba(0,0,0, .3);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+
+}
+
+.modal_content {
+  background: lightgray;
+  width: 80%;
+  height: 80%;
+  max-width: 900px;
+  min-width: 200px;
+  min-height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: .5rem;
+
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+  .modal_content {
+    width: 60%;
+    height: 60%;
+  }
+
+}
