@@ -4,6 +4,7 @@ body{
   margin: 0px;
 }
 
+/* outer container of modal contents that also serves as an overlay to the page */
 .modal_wrapper{
   background: rgba(0,0,0, .3);
   width: 100vw;
@@ -12,6 +13,7 @@ body{
 
 }
 
+/* centers and sizes the modal contents */
 .modal_content {
   background: lightgray;
   width: 80%;
